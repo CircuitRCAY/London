@@ -50,6 +50,9 @@
                         <a href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener">Twitter</a>
                         {{/if}}
                         <a href="https://feedly.com/i/subscription/feed/{{@site.url}}/rss/" title="RSS" target="_blank" rel="noopener">RSS</a>
+                        {{#if isSecondary}}
+                        {{navigation type="secondary"}}
+                        {{/if}}
                     </div>
                 </div>
             </div>
